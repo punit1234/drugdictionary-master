@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<title>Drug</title>
+</head>
+<body>
+<select id='select_drug'></select><button id='new_drug'>new drug</button><button id='submit'>submit</button>
+<table>
+	<tr>
+		<td width='10px'>
+			<table class='drug_list' id="drug_list">
+			</table>
+		</td>
+		<td>
+			<table class='drug_table'>
+				<tr>
+					<td class='drug_group_name'>
+					generic name
+					</td>
+					<td class='drug_group_input' >
+						<input class='drug_group_input' id='generic_name'>
+					
+					</td>
+				</tr>
+				<tr>
+					<td class='drug_group_name'>
+					brand name
+					</td>
+					<td><input class='drug_group_input' id='brand_name'>
+					
+					</td>
+				</tr>
+				<tr>
+					<td class='drug_group_name'>
+					How Supplied & Storage (Prior To Use) 
+					</td>
+					<td><TextArea class='drug_group_input' rows=4 id='how_supplied_storage_prior'></TextArea>
+					
+					</td>
+				</tr>
+				<tr>
+					<td class='drug_group_name'>
+					Reconstitution & (Concentration)
+					</td>
+					<td>
+					<TextArea class='drug_group_input' rows=4 id='reconstitution_concentration'></TextArea>
+					
+					
+					</td>
+				</tr>
+			
+				<tr>
+					<td class='drug_group_name'>
+					Stability After Reconstition & Dilution
+					</td>
+					<td>
+					
+					<TextArea class='drug_group_input' rows=4 id='stability_post_reconstruction'></TextArea>
+					
+					</td>
+				</tr>
+				<tr>
+					<td class='drug_group_name'>
+					Vehicle & Dilution
+					</td>
+					<td>
+					
+					<TextArea class='drug_group_input' rows=4 id='vehicle_dilution'></TextArea>
+					</td>
+				</tr>
+				<tr>
+					<td class='drug_group_name'>
+					Administration
+					</td>
+					<td>
+					
+					<TextArea class='drug_group_input' rows=4 id='administration'></TextArea>
+					</td>
+				</tr>
+				<tr>	
+					<td class='drug_group_name'>
+					Administration Miscellaneous Information
+					</td>
+					<td>
+					
+					<TextArea class='drug_group_input' rows=4 id='misc_notes'></TextArea>
+					</td>
+				</tr>
+				<tr>	
+					<td class='drug_group_name'>
+					References
+					</td>
+					<td>
+					<TextArea class='drug_group_input' rows=4 id='references'></TextArea>
+					
+					</td>
+					
+				</tr>
+				<tr>	
+					<td class='drug_group_name'>
+					Black Box
+					</td>
+					<td>
+					<TextArea class='drug_group_input' rows=4 id='black_box'></TextArea>
+					
+					</td>
+					
+				</tr>
+			</table>
+			<button id='submit'>submit</button>
+			<button id='delete'>delete</button>		
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>
